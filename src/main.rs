@@ -12,4 +12,5 @@ fn shell() {
     io::stdout().flush().ok();
     io::stdin().read_line(&mut cmd).ok();
     println!("{}", cmd);
+    shell();
 }
