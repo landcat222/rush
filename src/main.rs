@@ -2,6 +2,10 @@ use std::io;
 use std::io::Write;
 
 fn main() {
+    shell();
+}
+
+fn shell() {
     let mut cmd = String::new();
 
     print!("foo@bar ~ $ ");
